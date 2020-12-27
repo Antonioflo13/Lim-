@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 12px;
+  color: white;
+}
+h2:nth-of-type(1){
+  margin: 0;
+}
+.margin{
+  margin-bottom:0;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(background.jpg) no-repeat center top;
+  position: fixed;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.box-opacity{
+  width: 63%;
+  margin: auto;
+  padding-bottom:12%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+}
+.box{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:38px;
+}
+header{
+  text-align: center;
+  padding-top: 60px;
+}
+.logo{
+  width: 150px;
+}
+h2, .green{
+  color: #00ea38;
+}
+nav{
+  background-color: #00ea38;
+  width: 100%;
+  height: 27px;
+  padding-top:5px;
+  text-align: center;
+}
+input{
+  display: inline-block;
+  height: 17px;
+  font-size: 10px;
+}
+h3{
+  display: inline-block;
+}
+.arrow:before{
+  content: "\21A3";
+}
+.energyGino22{
+  width: 340px;
+  height: 20px;
+  background-color:orange;
+  border-radius: 5px;
+}
+.energyMike24{
+  width: 400px;
+  height: 20px;
+  background-color:#52cc00;
+  border-radius: 5px;
+}
+.energyFede154{
+  width: 190px;
+  height: 20px;
+  background-color:#dd5035;
+  border-radius: 5px;
+}
